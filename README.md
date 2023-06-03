@@ -66,5 +66,7 @@ In Edit, Advanced Settings "TURBOVNC_PARAMS" due to resriction in new docker can
 
 More info is here: https://forums.unraid.net/topic/83786-support-ich777-application-dockers/page/87/
 
+And when you are at it, go here and set the other stuff: https://www.reddit.com/r/synology/comments/uwnj97/using_your_synology_to_backup_your_imap_mail/
 
+In the config editor set the setting mail.server.default.check_all_folders_for_new to true.
 
