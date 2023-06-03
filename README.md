@@ -1,3 +1,7 @@
+# This is unchanged eccept for the VNC password fix for Synology.
+
+
+
 # Thunderbird in Docker optimized for Unraid
 This container will download and install Thunderbird in the preferred version and language.
 
@@ -55,3 +59,12 @@ All other platforms running Docker: create a environment variable `TURBOVNC_PARA
 This Docker was mainly edited for better use with Unraid, if you don't use Unraid you should definitely try it!
 
 #### Support Thread: https://forums.unraid.net/topic/83786-support-ich777-application-dockers/
+
+#### SYNOLOGY:
+
+In Edit, Advanced Settings "TURBOVNC_PARAMS" due to resriction in new docker can not be left empty. Enter the value "-securitytypes VNC" and the password will work, but you have to set it in terminal before. Visual guide is here: https://www.youtube.com/watch?v=995uUSleHsg
+
+More info is here: https://forums.unraid.net/topic/83786-support-ich777-application-dockers/page/87/
+
+
+
